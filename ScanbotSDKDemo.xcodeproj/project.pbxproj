@@ -225,8 +225,8 @@
 				TargetAttributes = {
 					9ED845801AE670CC008B2731 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = VZ266K5KCR;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 285W24646W;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -395,8 +395,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = VZ266K5KCR;
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = 285W24646W;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ScanbotSDK",
@@ -410,9 +410,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.doo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hackernewstest;
 				PRODUCT_NAME = "ScanbotSDK Demo";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5b5eb9a6-ca2c-4aef-9b66-1af46955babd";
+				PROVISIONING_PROFILE_SPECIFIER = "HackerNews Test";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
@@ -427,8 +428,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = VZ266K5KCR;
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = 285W24646W;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ScanbotSDK",
@@ -438,9 +439,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.doo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hackernewstest;
 				PRODUCT_NAME = "ScanbotSDK Demo";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5b5eb9a6-ca2c-4aef-9b66-1af46955babd";
+				PROVISIONING_PROFILE_SPECIFIER = "HackerNews Test";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
