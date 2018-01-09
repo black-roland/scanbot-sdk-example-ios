@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0820226D1F790A41005FF9F2 /* ScanbotSDKCreditCardData.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 088F99071F7908E8007381EF /* ScanbotSDKCreditCardData.bundle */; };
-		0820226F1F790A93005FF9F2 /* SBSDKLanguageData in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0820226E1F790A8A005FF9F2 /* SBSDKLanguageData */; };
+		0820226F1F790A93005FF9F2 /* SBSDKLanguageData in Copy Files */ = {isa = PBXBuildFile; fileRef = 0820226E1F790A8A005FF9F2 /* SBSDKLanguageData */; };
 		08299BB71FC5818500E01F0E /* QRDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08299BB21FC5818500E01F0E /* QRDemoViewController.m */; };
 		08299BC21FC5822F00E01F0E /* QRDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08299BBD1FC5822F00E01F0E /* QRDescriptionViewController.m */; };
 		08299BC31FC5822F00E01F0E /* RecognizedQRCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08299BBF1FC5822F00E01F0E /* RecognizedQRCell.m */; };
 		08299BC41FC5822F00E01F0E /* UnfoldTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 08299BC11FC5822F00E01F0E /* UnfoldTransition.m */; };
-		0896B5F31F7909BA00E79F85 /* ScanbotSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0896B5F21F7909BA00E79F85 /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84F3E9982004ED0800D784EC /* ScanbotSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84F3E9962004ED0800D784EC /* ScanbotSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C275628F1DE45368003F5FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27562781DE45368003F5FE0 /* AppDelegate.m */; };
 		C27562901DE45368003F5FE0 /* ChequeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C275627A1DE45368003F5FE0 /* ChequeViewController.m */; };
 		C27562911DE45368003F5FE0 /* CreditCardRecognitionDemoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C275627C1DE45368003F5FE0 /* CreditCardRecognitionDemoViewController.mm */; };
@@ -30,14 +30,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9E69F5C41AE7E45500E6131A /* CopyFiles */ = {
+		9E69F5C41AE7E45500E6131A /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				0820226F1F790A93005FF9F2 /* SBSDKLanguageData in CopyFiles */,
+				0820226F1F790A93005FF9F2 /* SBSDKLanguageData in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9E8AC0C01D227C420017703D /* Embed Frameworks */ = {
@@ -46,7 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0896B5F31F7909BA00E79F85 /* ScanbotSDK.framework in Embed Frameworks */,
+				84F3E9982004ED0800D784EC /* ScanbotSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +67,7 @@
 		08299BC11FC5822F00E01F0E /* UnfoldTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnfoldTransition.m; sourceTree = "<group>"; };
 		088F99071F7908E8007381EF /* ScanbotSDKCreditCardData.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ScanbotSDKCreditCardData.bundle; path = ScanbotSDK/AdditionalData/ScanbotSDKCreditCardData.bundle; sourceTree = SOURCE_ROOT; };
 		0896B5F21F7909BA00E79F85 /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanbotSDK.framework; path = ScanbotSDK/ScanbotSDK.framework; sourceTree = SOURCE_ROOT; };
+		84F3E9962004ED0800D784EC /* ScanbotSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanbotSDK.framework; path = ScanbotSDK/ScanbotSDK.framework; sourceTree = "<group>"; };
 		9ED845811AE670CC008B2731 /* ScanbotSDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScanbotSDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27562771DE45368003F5FE0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ScanbotSDKDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		C27562781DE45368003F5FE0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ScanbotSDKDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
@@ -130,6 +132,7 @@
 		9ED845781AE670CC008B2731 = {
 			isa = PBXGroup;
 			children = (
+				84F3E9962004ED0800D784EC /* ScanbotSDK.framework */,
 				082022701F791157005FF9F2 /* README.md */,
 				9ED845831AE670CC008B2731 /* DemoApp */,
 				9ED845821AE670CC008B2731 /* Products */,
@@ -201,8 +204,9 @@
 				9ED8457E1AE670CC008B2731 /* Frameworks */,
 				9ED8457D1AE670CC008B2731 /* Sources */,
 				9ED8457F1AE670CC008B2731 /* Resources */,
-				9E69F5C41AE7E45500E6131A /* CopyFiles */,
+				9E69F5C41AE7E45500E6131A /* Copy Files */,
 				9E8AC0C01D227C420017703D /* Embed Frameworks */,
+				84F3E9992004ED1F00D784EC /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -260,6 +264,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84F3E9992004ED1F00D784EC /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/./ScanbotSDK/ScanbotSDK.framework.dSYM",
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/ScanbotSDK.framework/strip-SBSDK-Framework.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9ED8457D1AE670CC008B2731 /* Sources */ = {
@@ -396,7 +418,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 285W24646W;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ScanbotSDK",
@@ -429,7 +451,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 285W24646W;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ScanbotSDK",
